@@ -1,0 +1,20 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: Prova
+message: Això és una prova
+type: software
+authors:
+  - given-names: Josep
+    family-names: Oliver-Sanso
+    email: joliver@socib.es
+    affiliation: SOCIB
+  - name: SOCIB
+repository-code: 'https://github.com/OliverJosep/prova'
+abstract: Short abstract
+keywords:
+  - deep learning
+  - computer vision
+license: MIT
+date-released: '2026-01-14'
