@@ -2,19 +2,58 @@
 # Visit https://bit.ly/cffinit to generate yours today!
 
 cff-version: 1.2.0
-title: Prova
-message: Això és una prova
+title: SOCIB Shoreline extraction
+message: >-
+  A deployable AI module for shoreline extraction based on
+  DeepLabV3
 type: software
 authors:
   - given-names: Josep
-    family-names: Oliver-Sanso
+    family-names: Oliver-Sansó
     email: joliver@socib.es
-    affiliation: SOCIB
-  - name: SOCIB
-repository-code: 'https://github.com/OliverJosep/prova'
-abstract: Short abstract
+    affiliation: >-
+      Balearic Islands Coastal Observing and Forecasting
+      System (SOCIB)
+    orcid: 'https://orcid.org/0009-0006-9040-9118'
+  - given-names: Jesús
+    family-names: Soriano-González
+    email: jsoriano@socib.es
+    affiliation: >-
+      Balearic Islands Coastal Observing and Forecasting
+      System (SOCIB)
+    orcid: 'https://orcid.org/0000-0001-6573-3924'
+  - name: >-
+      Balearic Islands Coastal Observing and Forecasting
+      System
+    address: >-
+      Isaac Newton St., Naorte Building, Block A, Floor 2,
+      Door 3
+    city: Palma
+    country: ES
+    post-code: '07121'
+    location: Parc Bit
+    region: Balearic Islands
+    alias: SOCIB
+    website: 'https://www.socib.es'
+repository-code: 'https://github.com/ai4os-hub/socib-shoreline-extraction'
+abstract: >-
+  The SOCIB Shoreline extraction module is an AI-driven
+  application that automatically delineates the
+  "instantaneous shoreline" (the dynamic waterline limit)
+  from both oblique and rectified RGB images, excluding
+  features like wet sand or vegetation. The extraction
+  process is a two-step procedure: (i) the DeepLabV3
+  Convolutional Neural Network performs image segmentation
+  into 'landward,' 'seaward,' and (for rectified images)
+  'background' classes; (ii) an automated post-processing
+  step defines the shoreline as the boundary line separating
+  the segmented 'landward' and 'seaward' areas.
 keywords:
-  - deep learning
-  - computer vision
+  - Deep Learning
+  - Computer Vision
+  - Beach Monitoring
+  - Shoreline Extraction
 license: MIT
-date-released: '2026-01-14'
+commit: 0a4827fdacce1bef8be838696987e4ae2dc31755
+version: v0.1.0
+date-released: '2025-12-16'
