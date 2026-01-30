@@ -1,10 +1,10 @@
 {
-    "title": "SOCIB Rip currents detection (test 2)",
+    "title": "SOCIB Rip currents detection (test 3)",
     "description": "The Balearic Islands Coastal Observing and Forecasting System (SOCIB) operates a multi-platform system in the western Mediterranean to provide reliable data and expert advice. Rip currents are concentrated seawards flows of water that extend from close to the shoreline through the surf zone, reaching high velocities (0.5-3 m/s). They are considered the principal physical hazard to recreational bathers on surf beaches, constituting the primary focus of beach lifeguard efforts and remaining a leading cause of rescues and drownings globally. Accurate detection and warning systems are crucial to mitigate these risks and improve beach safety. The SOCIB Rip Currents Detection module is an AI-based application that automates the detection of rip currents from RGB images including oblique pictures (e.g., fixed beach imaging systems, smartphones) and orthoimagery (e.g., UAV). This application was trained using the Rip Current Annotated Image Dataset (RipAID), and is suitable for both static images and near-real-time video streams.",
     "upload_type": "software",
     "access_right": "open",
     "license": "agpl-3.0",
-    "version": "v1.0.1",
+    "version": "v1.0.5",
     "publication_date": "2026-01-30",
     "creators": [
         {
@@ -23,8 +23,7 @@
             "orcid": "0009-0000-1203-8709"
         },
         {
-            "name": "Balearic Islands Coastal Observing and Forecasting System",
-            "affiliation": "SOCIB"
+            "name": "Balearic Islands Coastal Observing and Forecasting System"
         }
     ],
     "keywords": [
