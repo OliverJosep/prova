@@ -23,7 +23,14 @@
             "orcid": "0009-0000-1203-8709"
         },
         {
-            "name": "Balearic Islands Coastal Observing and Forecasting System"
+            "name": "Balearic Islands Coastal Observing and Forecasting System (SOCIB)",
+            "type": "Organizational",
+            "identifiers": [
+                {
+                    "scheme": "edmo",
+                    "identifier": "3410"
+                }
+            ]
         }
     ],
     "keywords": [
